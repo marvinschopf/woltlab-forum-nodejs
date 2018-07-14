@@ -9,3 +9,4 @@ before_install:
 
 script:
   - yarn run test
+  - yarn run report-coverage
