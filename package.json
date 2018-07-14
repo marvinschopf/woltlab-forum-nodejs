@@ -1,0 +1,22 @@
+{
+  "name": "woltlab-forum",
+  "version": "0.1.0",
+  "description": "API wrapper around the WoltLab Forum",
+  "main": "index.js",
+  "repository": "https://github.com/MagicMarvMan/woltlab-forum-nodejs.git",
+  "author": "MagicMarvMan <24806960+MagicMarvMan@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2",
+    "request": "2.87.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.2.0",
+    "nyc": "12.0.2"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  }
+}
